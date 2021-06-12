@@ -1,0 +1,6 @@
+{
+    "_template": "git@github.com:traiana/cookiecutter-pytest-project.git",
+    "project_name": "docker_api_exercise",
+    "project_short_description": "Get docker images, Rum containers and Gather stats.",
+    "sphinx_theme": "sphinx-rtd-theme"
+}
