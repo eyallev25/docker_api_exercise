@@ -54,9 +54,9 @@ Resources List
 improvements
 ===========
   1. Error handling - docker.errors.APIError.
-  2. Better understanding of python docker API.
-  3. Better project modulation - probably a class structured.
-  4. Better documentation.
+  2. A better understanding of python docker API.
+  3. Build as a package and reading from config file - modulated probably a class structured.
+  4. A better documentation.
   5. Adding pytest Fixtures to tests.
   6. Adding tests.
 
