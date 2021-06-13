@@ -9,9 +9,14 @@ Installation
 
 ::
 
-  git clone git@github.com:eyallev25/docker_api_exercise.git
+  1. git clone git@github.com:eyallev25/docker_api_exercise.git
 
-  pip3 install -r requirements.txt
+  2. pip3 install -r requirements.txt
+
+Running
+============
+
+  python3 tests/support/docker_utils.py
 
 
 Docker
@@ -27,7 +32,7 @@ Usage
 
 To run the all tests run::
 
-  python3 tests/support/docker_utils.py
+  pytest
 
   OR
 
@@ -52,5 +57,7 @@ improvements
   2. Better understanding of python docker API.
   3. Better project modulation - probably a class structured.
   4. Better documentation.
+  5. Adding pytest Fixtures to tests.
+  6. Adding tests.
 
 
