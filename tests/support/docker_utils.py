@@ -38,7 +38,7 @@ def pull_image_and_run_container(image_name):
 
     timeout_start = time.time()
 
-    # TODO While container is still exist.
+    # TODO While container is still running.
     while time.time() < timeout_start + timeout:
         mem_usage, total_cpu_usage = _get_container_stats(container)
         container_response.max_mem_usage(mem_usage)
